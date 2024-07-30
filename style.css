@@ -1,0 +1,106 @@
+* {
+  /* padding: 0;
+  margin: 0; */
+  /* font-family: 'Noto Serif', serif; */
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgba(201, 201, 191, 0.633);
+  font-family: 'Noto Serif', serif;
+  color: #000;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: medium;
+}
+
+.card-white {
+  background-color: white;
+  text-align: center;
+  padding: 8px;
+  margin: 12px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  /* font-size: 36px; */
+  color: #2d98c9;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  /* margin: 0; */
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover{
+  color: #000;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+button {
+  padding: 16px;
+  color: white;
+  background-color: #2d98c9;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  transition: 0.3s ease;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #000;
+}
+
+.card-white li {
+  display: inline-block;
+}
+
+.card-white li i {
+  width: 50px;
+}
+
+.card-white ul {
+  padding: 0;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
